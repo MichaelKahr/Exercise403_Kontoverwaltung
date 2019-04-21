@@ -13,15 +13,15 @@ public class Account {
     }
 
     public void withdraw(double money) throws NoMoneyException {
-        if (balance < money) {
+        if (money > balance) {
             throw new NoMoneyException();
         }
         balance -= money;
     }
 
-    public void transferTo(Account rec, double money) throws NoMoneyException {
+    public void transferTo(Account sec, double money) throws NoMoneyException {
         withdraw(money);
-        rec.deposit(money);
+        sec.deposit(money);
     }
 
     public double getBalance() {
