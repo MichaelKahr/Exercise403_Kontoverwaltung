@@ -67,7 +67,7 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <Component id="UserPanel" min="-2" max="-2" attributes="0"/>
+              <Component id="UstPanel" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="OutputPanel" max="32767" attributes="0"/>
           </Group>
@@ -79,7 +79,7 @@
           <Group type="102" alignment="0" attributes="0">
               <Group type="103" groupAlignment="1" max="-2" attributes="0">
                   <Component id="OutputPanel" max="32767" attributes="0"/>
-                  <Component id="UserPanel" max="32767" attributes="0"/>
+                  <Component id="UstPanel" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
               <Component id="AccountPanel" min="-2" max="-2" attributes="0"/>
@@ -88,7 +88,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="UserPanel">
+    <Container class="javax.swing.JPanel" name="UstPanel">
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
@@ -117,7 +117,7 @@
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
           <SubComponents>
-            <Component class="javax.swing.JList" name="liUser">
+            <Component class="javax.swing.JList" name="liUsr">
               <Properties>
                 <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
                   <StringArray count="0"/>
@@ -163,7 +163,7 @@
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
           <SubComponents>
-            <Component class="javax.swing.JTextArea" name="taOutput">
+            <Component class="javax.swing.JTextArea" name="taOut">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
                 <Property name="columns" type="int" value="20"/>
@@ -189,17 +189,17 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="lbBalance" alignment="0" max="32767" attributes="0"/>
+              <Component id="lbBal" alignment="0" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="lbBalance" alignment="0" pref="81" max="32767" attributes="0"/>
+              <Component id="lbBal" alignment="0" pref="81" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JLabel" name="lbBalance">
+        <Component class="javax.swing.JLabel" name="lbBal">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="18" style="1"/>
